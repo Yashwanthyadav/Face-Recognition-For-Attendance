@@ -22,6 +22,6 @@ print(results, faceDis)
 
 cv2.putText(imgTest,f'{results} {(100-round(faceDis[0],2)*100)}%',(50,200),cv2.FONT_HERSHEY_COMPLEX,5,(0,255,0),5)
 
-cv2.imshow('Sushma', imgMom)
-cv2.imshow('Sushma Test', imgTest)
+cv2.imshow('Anjan Kumar', imgMom)
+cv2.imshow('Anjan Kumar Test', imgTest)
 cv2.waitKey(0)
